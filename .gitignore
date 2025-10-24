@@ -1,0 +1,23 @@
+# Ignore system and Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+env/
+venv/
+.dem3d_env/
+*.env
+
+# Ignore large datasets and outputs
+DATA/DEM_prep/*.tif
+DATA/DEM_prep/*.zip
+DATA/DEM_prep/*.tar.gz
+
+# Ignore local API key
+API_Key.txt
+
+# Ignore Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+

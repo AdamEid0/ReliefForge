@@ -1,0 +1,15 @@
+name: dem3d_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - rasterio
+  - geopandas
+  - shapely
+  - requests
+  - pyvista
+  - matplotlib
+  - pillow
+  - jupyter
