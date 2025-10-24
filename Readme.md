@@ -1,27 +1,29 @@
-# Saudi Arabia DEM 3D Modeling and Visualization
+# ReliefForge – 3D Terrain Modeling Toolkit
 
-A complete open-source workflow for downloading, preparing, and visualizing Digital Elevation Models (DEMs) in 3D — built for large areas such as Saudi Arabia using OpenTopography’s SRTM datasets.
+ReliefForge is an open-source Python toolkit that enables the automated creation of high-quality 3D terrain models from global elevation data. It integrates data acquisition, preprocessing, and visualization into a streamlined workflow—ideal for geoscientists, cartographers, and engineers seeking reproducible terrain outputs.
 
----
+## Table of Contents
+- [Motivation](#motivation)  
+- [Key Features](#key-features)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Requirements](#requirements)  
+- [Contribution](#contribution)  
+- [License](#license)  
 
-## Author
-**Adam Eid**
+## Motivation  
+Accurate terrain models are essential for applications in exploration geology, environmental monitoring, and infrastructure planning. However, acquiring, processing, and visualizing elevation data often involves multiple tools and workflows. ReliefForge bridges this gap by offering an end-to-end pipeline built on Python and the OpenTopography API.
 
----
+## Key Features  
+- Automated download of SRTM 30 m (SRTMGL1) or 90 m (SRTMGL3) datasets via the OpenTopography API.  
+- Preprocessing modules including smoothing, hill-shade generation, and balanced white-relief rendering.  
+- 3D visualization engine using PyVista and Matplotlib with multiple stylized outputs (matte white, colored elevation, dark brown terrain, borderless renders).  
+- Modular architecture allowing each stage—acquisition, processing, and visualization—to be executed independently or as part of a full pipeline.  
+- Designed for global regions with initial focus on Saudi Arabia, yet adaptable to any valid AOI supported by OpenTopography.
 
-## Features
-
-- Download SRTM 30m (SRTMGL1) or 90m (SRTMGL3) DEMs directly from OpenTopography.
-- Prepare DEMs with smoothing, hillshade, and white relief.
-- Visualize high-quality 3D models in multiple styles.
-- Easy setup with Conda or Pip.
-- Modular folder organization for clarity and scalability.
-
----
-
-## Installation
-
-### Using Conda
+## Installation  
+### Via Conda (recommended)  
 ```bash
-conda env create -f environment.yml
-conda activate dem3d_env
+conda env create -f environment.yml  
+conda activate dem3d_env  
