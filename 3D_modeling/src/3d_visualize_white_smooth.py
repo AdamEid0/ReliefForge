@@ -7,7 +7,7 @@ from scipy.ndimage import gaussian_filter
 # -----------------------------
 # SETTINGS
 # -----------------------------
-DEM_PATH = "../Data/3D_prep/SRTM_90m_Riyadh_UTM.tif"
+DEM_PATH = "../../DATA/3D_prep/SRTM_90m_Riyadh_UTM.tif"
 EXAGGERATION = 10.0
 MAX_POINTS = 1_500_000
 SMOOTH_SIGMA = 2.5   # ↑ increase to 2–3 for stronger smoothing

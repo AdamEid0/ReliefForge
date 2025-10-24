@@ -1,23 +1,25 @@
-# Ignore system and Python cache files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.env/
+.conda/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
 
-# Ignore virtual environment
-env/
-venv/
-.dem3d_env/
-*.env
-
-# Ignore large datasets and outputs
-DATA/DEM_prep/*.tif
-DATA/DEM_prep/*.zip
-DATA/DEM_prep/*.tar.gz
-
-# Ignore local API key
+# Large raster/imagery (keep the repo light)
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.zip
 API_Key.txt
 
-# Ignore Jupyter checkpoints (if any)
-.ipynb_checkpoints/
-
+.vscode/
+.idea/

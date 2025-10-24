@@ -7,9 +7,9 @@ from PIL import Image, ImageFile
 Image.MAX_IMAGE_PIXELS = None
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-DEM_PATH = "../Data/DEM_prep/dem_smooth.tif"
-HS_PATH = "../Data/DEM_prep/hillshade.png"
-OUT_RELIEF = "../Data/DEM_prep/white_relief.png"
+DEM_PATH = "../../DATA/DEM_prep/dem_smooth.tif"
+HS_PATH = "../../DATA/DEM_prep/hillshade.png"
+OUT_RELIEF = "../../DATA/DEM_prep/white_relief.png"
 
 with rasterio.open(DEM_PATH) as src:
     dem = src.read(1).astype(np.float32)

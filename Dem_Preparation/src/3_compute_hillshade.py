@@ -3,8 +3,8 @@ import numpy as np
 import rasterio
 from PIL import Image
 
-DEM_PATH = "../Data/DEM_prep/dem_smooth.tif"
-OUT_HS = "../Data/DEM_prep/hillshade.png"
+DEM_PATH = "../../DATA/DEM_prep/dem_smooth.tif"
+OUT_HS = "../../DATA/Data/DEM_prep/hillshade.png"
 AZIMUTH = 315
 ALTITUDE = 45
 

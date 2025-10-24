@@ -1,0 +1,11 @@
+# OpenTopography API Key Template
+# --------------------------------
+# Follow these steps:
+# 1. Visit https://portal.opentopography.org/apikeys
+# 2. Log in and generate a new API key
+# 3. Copy the key and paste it into a file named API_Key.txt (in this same folder)
+# 4. Do not share your personal API key publicly!
+
+your_api_key_here
+
+

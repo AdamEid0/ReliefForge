@@ -8,7 +8,7 @@ from matplotlib.colors import LinearSegmentedColormap
 # -----------------------------
 # SETTINGS
 # -----------------------------
-DEM_PATH = "../Data/3D_prep/SRTM_90m_Riyadh_UTM.tif"
+DEM_PATH = "../../DATA/3D_prep/SRTM_90m_Riyadh_UTM.tif"
 EXAGGERATION = 12.0
 MAX_POINTS = 1_300_000
 SMOOTH_SIGMA = 2.5     # 1.0–3.0 for smoothing intensity

@@ -3,8 +3,8 @@ import rasterio
 from rasterio.warp import calculate_default_transform, reproject, Resampling
 import os
 
-DEM_PATH = "../Data/DEM_prep/SRTM_90m_Riyadh.tif"
-OUT_PATH = "../Data/3D_prep/SRTM_90m_Riyadh_UTM.tif"
+DEM_PATH = "../../DATA/DEM_prep/SRTM_90m_Riyadh.tif"
+OUT_PATH = "../../DATA/3D_prep/SRTM_90m_Riyadh_UTM.tif"
 
 # Auto-detect approximate UTM zone from bounds
 with rasterio.open(DEM_PATH) as src:

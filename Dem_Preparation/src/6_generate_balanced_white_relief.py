@@ -14,8 +14,8 @@ from PIL import Image, ImageFile
 Image.MAX_IMAGE_PIXELS = None
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-DEM_PATH = "../Data/DEM_prep/SRTM_90m_Riyadh.tif"
-OUT_PATH = "../Data/DEM_prep/arabia_balanced_white_relief.png"
+DEM_PATH = "../../DATA/DEM_prep/SRTM_90m_Riyadh.tif"
+OUT_PATH = "../../DATA/DEM_prep/arabia_balanced_white_relief.png"
 
 # -----------------------------
 # 1️⃣ Load DEM

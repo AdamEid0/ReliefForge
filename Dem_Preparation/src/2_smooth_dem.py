@@ -3,8 +3,8 @@ import numpy as np
 import rasterio
 from scipy.ndimage import gaussian_filter
 
-DEM_PATH = "../Data/DEM_prep/SRTM_90m_Riyadh.tif"
-OUT_PATH = "../Data/DEM_prep/dem_smooth.tif"
+DEM_PATH = "../../DATA/DEM_prep/SRTM_90m_Riyadh.tif"
+OUT_PATH = "../../DATA/DEM_prep/dem_smooth.tif"
 SIGMA = 2.0  # control smoothing level
 
 with rasterio.open(DEM_PATH) as src:

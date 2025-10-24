@@ -6,7 +6,7 @@ import pyvista as pv
 # -----------------------------
 # SETTINGS
 # -----------------------------
-DEM_PATH = "../Data/3D_prep/SRTM_90m_Riyadh_UTM.tif"
+DEM_PATH = "../../DATA/3D_prep/SRTM_90m_Riyadh_UTM.tif"
 EXAGGERATION = 10.0
 MAX_POINTS = 1_500_000
 

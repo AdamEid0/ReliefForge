@@ -2,7 +2,7 @@
 import rasterio
 import numpy as np
 
-DEM_PATH = "../Data/DEM_prep/SRTM_90m_Riyadh.tif"
+DEM_PATH = "../../DATA/DEM_prep/SRTM_90m_Riyadh.tif"
 
 with rasterio.open(DEM_PATH) as src:
     dem = src.read(1).astype(np.float32)

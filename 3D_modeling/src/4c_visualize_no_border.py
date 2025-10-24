@@ -8,7 +8,7 @@ from matplotlib.colors import LinearSegmentedColormap
 # -----------------------------
 # SETTINGS
 # -----------------------------
-DEM_PATH = "../Data/3D_prep/SRTM_90m_Riyadh_UTM.tif"
+DEM_PATH = "../../DATA/3D_prep/SRTM_90m_Riyadh_UTM.tif"
 EXAGGERATION = 13.0
 MAX_POINTS = 1_300_000
 SMOOTH_SIGMA = 2.5      # smooth spikes
