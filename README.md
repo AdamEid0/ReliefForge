@@ -3,7 +3,17 @@
 **ReliefForge** is a Python toolkit for building accurate, publication-quality 3D terrain models from global elevation data.  
 It provides a complete, reproducible workflow for acquiring SRTM DEMs via the OpenTopography API, preprocessing them for clarity, and producing high-quality 3D visualizations suitable for analysis, reports, and mapping applications.
 
----
+
+
+
+<p align="center">
+  <img width="600" height="400" alt="topo_example" src="https://github.com/user-attachments/assets/2e005a53-1891-4983-9163-50456dc06403" />
+  <br>
+  <em</em>
+</p>
+
+
+
 
 ##  Table of Contents
 - [Overview](#overview)
