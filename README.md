@@ -5,7 +5,7 @@ It provides a complete, reproducible workflow for acquiring SRTM DEMs via the Op
 
 ---
 
-## 📘 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Installation](#installation)
@@ -20,7 +20,7 @@ It provides a complete, reproducible workflow for acquiring SRTM DEMs via the Op
 
 ---
 
-## 🛰 Overview
+##  Overview
 
 ReliefForge streamlines common terrain-processing tasks into modular Python scripts that can run individually or as a complete workflow.
 
@@ -32,17 +32,17 @@ Each stage can be used independently or integrated into a larger GIS or modeling
 
 ---
 
-## 🌍 Key Features
+##  Key Features
 
-- 🔽 Automated DEM download directly from **OpenTopography**  
-- ⚙️ Advanced DEM preprocessing: nodata handling, Gaussian smoothing, hillshade, and white relief  
-- 🎨 Multiple 3D rendering styles with consistent camera and lighting presets  
-- 🧩 Modular scripts for flexible integration into research or GIS pipelines  
-- 🌎 Works globally for any AOI supported by OpenTopography  
+-  Automated DEM download directly from **OpenTopography**  
+-  Advanced DEM preprocessing: nodata handling, Gaussian smoothing, hillshade, and white relief  
+-  Multiple 3D rendering styles with consistent camera and lighting presets  
+-  Modular scripts for flexible integration into research or GIS pipelines  
+-  Works globally for any AOI supported by OpenTopography  
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Option A – Conda (recommended)
 ```bash
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Configuration
+##  Configuration
 
 ### API Key
 
@@ -77,7 +77,7 @@ Example:
 A template file named **`API_Key_TEMPLATE.txt`** is included in this repository.  
 Simply duplicate it as `API_Key.txt` and insert your actual key.
 
-✅ **Notes:**
+ **Notes:**
 - Do not include quotes, brackets, or spaces.  
 - Only one valid key per file.  
 - The comment line (`#`) is optional.  
@@ -99,7 +99,7 @@ Ensure your shapefile uses the right **EPSG:xxxx (WGS 84)** coordinates.
 
 ---
 
-## 🧩 Typical Workflow
+##  Typical Workflow
 
 ### 1. Download SRTM DEM
 ```bash
@@ -191,7 +191,7 @@ ReliefForge/
 
 ---
 
-## 🧰 Troubleshooting
+##  Troubleshooting
 
 **Invalid API Key**  
 Ensure `API_Key.txt` contains only the key (no brackets, quotes, or spaces).
@@ -207,7 +207,7 @@ For headless servers or limited GPUs, use PyVista’s off-screen rendering and i
 
 ---
 
-## 🧭 Roadmap
+##  Roadmap
 
 - Configuration file for paths and parameters  
 - Jupyter notebooks for reproducible analysis  
@@ -217,7 +217,7 @@ For headless servers or limited GPUs, use PyVista’s off-screen rendering and i
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!  
 
@@ -230,14 +230,14 @@ Please keep code style consistent and include clear docstrings where relevant.
 
 ---
 
-## ⚖️ License
+##  License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full terms and conditions.
 
 ---
 
-## 🧾 Citation
+##  Citation
 
 If you use **ReliefForge** in your research, teaching, or publications, please cite:
 
