@@ -95,7 +95,7 @@ Place your AOI shapefile files (`.shp`, `.shx`, `.dbf`, `.prj`) in:
 DATA/shapefiles/
 ```
 
-Ensure your shapefile uses the right **EPSG:xxxx (WGS 84)** coordinates.
+Ensure your shapefile uses the right **EPSG:xxxx / (WGS 84)** coordinates.
 
 ---
 
