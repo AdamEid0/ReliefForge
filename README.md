@@ -251,6 +251,8 @@ See the [LICENSE](LICENSE) file for full terms and conditions.
 
 If you use **ReliefForge** in your research, teaching, or publications, please cite:
 
-**Adam Eid (2025)**  
+**Adam Eid (2025)**
+**Abdulsalam Alzahrani**
+**Turki Alsubaie**
 *ReliefForge: A 3D Terrain Modeling Toolkit*  
 [https://github.com/AdamEid0/ReliefForge](https://github.com/AdamEid0/ReliefForge)
